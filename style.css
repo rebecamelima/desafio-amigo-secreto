@@ -128,11 +128,26 @@ button {
 /* Listas */
 ul {
     list-style-type: none;
-    color: var(--color-text);
     font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     margin: 20px 0;
+    padding: 0;
+    display: inline-block;
 }
+
+ul li {
+    color: var(--color-text);
+    border: 2px solid #000;
+    border-radius: 12px;
+    margin: 2px;
+    padding: 2px 5px;
+    margin-bottom: 30px;
+    display: inline-block;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.remove
 
 .result-list {
     margin-top: 15px;
