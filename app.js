@@ -15,7 +15,7 @@ function adicionarAmigo() {
     let nome = document.querySelector("#amigo").value;
     if (nome != "") { //verifica se não está vazio
         if (amigos.includes(nome)) {
-            alert("Este nomejá fi adicionado!");
+            alert("Este nome já foi adicionado!");
             return;
         }
 
